@@ -10,6 +10,7 @@
     </head>
 
     <body>
+      <h1 id="rules-link">game rules</h1>
       <div id="bg-overlay-one">
       </div>
         <div id="bg-overlay-two">
@@ -39,7 +40,17 @@
 
               <img src="dice-5.png" alt="Dice" class="dice">
           </div>
+          <div id="rules-overlay">
+            <p class="white">
+              The game has 2 players playing in rounds.
+              In each turn, a player rolls the dice as many times as he whishes. Each result gets added to his ROUND score.
+              BUT, if the player rolls a 1, all of his ROUND score gets lost. After that, it's the next player's turn.
+              The player can choose to "Hold", which means that his ROUND score gets added to his GLOBAL score. After that "HOLDS", it's the next player's turn.
+              The first player to reach 20 points on his GLOBAL score wins the game.
+            </p>
+          </div>
 
           <script src="app.js"></script>
+          <script src="navi.js"></script>
     </body>
 </html>
